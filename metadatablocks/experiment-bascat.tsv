@@ -1,0 +1,6 @@
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
+	experimentbascatmetadata		Basic Catalysis Metadata													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	experiment	Experiment	Experiment Details		none	0		TRUE	FALSE	FALSE	FALSE	TRUE	TRUE		experimentbascatmetadata	http://voc4cat.org/experiment
+	experimentName	Name	Name of the Experiment		text	1		TRUE	FALSE	FALSE	TRUE	TRUE	TRUE		experimentbascatmetadata	http://voc4cat.org/name
+	experimentTime	Time	Time of the Experiment	YYY-MM-DD or YYYY-MM-DDTHH:MM:SS	text	2		TRUE	FALSE	FALSE	FALSE	TRUE	TRUE		experimentbascatmetadata	http://voc4cat.org/time

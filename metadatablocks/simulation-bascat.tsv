@@ -1,0 +1,9 @@
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
+	simulationbascatmetadata		Catalysis Simulation Metadata													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	simulationName	Name	Name of Simulation		text	39		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		simulationbascatmetadata	http://voc4cat.org/name
+	simulationTime	Time	Date when simulation was run	YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS	text	40		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		simulationbascatmetadata	http://voc4cat.org/time
+	simulationInput	Input	Input file used for running the simulations		text	41		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		simulationbascatmetadata	http://voc4cat.org/simulationInput
+	simulationSoftwareEnvironment	Software Environment	Details abou the used Software Environment		none	42		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		simulationbascatmetadata	http://voc4cat.org/softwareEnvironment
+	simulationSoftwareName	Software Name	Software Name	e.g. Python	text	43		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	simulationSoftwareEnvironment	simulationbascatmetadata	http://voc4cat.org/softwareName
+	simulationSoftwareVersion	Software Version	Version of used Software	e.g. v3.0.1	text	44		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	simulationSoftwareEnvironment	simulationbascatmetadata	http://voc4cat.org/softwareVersion

@@ -1,0 +1,19 @@
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
+	substancebascatmetadata		Chemical Substance Metadata													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	chemicalSubstanceName	Name	General Name of the substance as identified in the group (not necessarily the standard name)		text	46		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/name
+	chemicalSubstanceType	Type	Physical state of the substance (solid, liquid, gas, mixture, solution, etc.)		text	47		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/type
+	chemicalSubstanceLocalID	Local ID	Unique ID of the substance within the group		text	48		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/localID
+	synthesisDetails	Synthesis Details	Synthesis Details		none	49		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/synthesisDetails
+	synthesisMethod	Method	Identifier of the method of prepration of the substance if synthesized (precipitation, incipient wetness impregnation etc.)		text	50		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	synthesisDetails	substancebascatmetadata	http://voc4cat.org/method
+	synthesisTime	Time	Date of the synthesis of the material	YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS	text	51		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	synthesisDetails	substancebascatmetadata	http://voc4cat.org/time
+	synthesizedBy	Synthesized By	Name of the person who synthesized the material		text	52		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE	synthesisDetails	substancebascatmetadata	http://voc4cat.org/synthesizedBy
+	synthesisRecipe	Recipe	Documentation (or link to respective file) of the applied synthesis procedure		textbox	53		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	synthesisDetails	substancebascatmetadata	http://voc4cat.org/recipe
+	synthesisPrecursor	Precursor	List of precursors (and/or materials and devices) that were used in the synthesis of the material		text	54		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE	synthesisDetails	substancebascatmetadata	http://voc4cat.org/precursor
+	purchaseDetails	Purchase Details	Purchase details of the substance if purchased commercially		none	55		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/purchaseDetails
+	purchasedBy	Purchased By	Name of the person who purcahsed		text	56		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE	purchaseDetails	substancebascatmetadata	http://voc4cat.org/purchasedBy
+	purchaseDate	Purchase Date	When was this substance purchased	YYYY-MM-DD	date	57		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	purchaseDetails	substancebascatmetadata	http://voc4cat.org/date
+	batchNumber	Batch Number	Batch or LOT number of the material		text	58		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	purchaseDetails	substancebascatmetadata	http://voc4cat.org/batchNumber
+	chemicalSubstanceIdentifier	Identifier	Identifier of the Chemical Substance		none	59		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/chemicalSubstanceIdentifier
+	CASNumber CAS Number	CAS Number	CAS Number	e.g. 7732-18-5	text	60		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	chemicalSubstanceIdentifier	substancebascatmetadata	http://voc4cat.org/CASNumber
+	PubChemID PubChem ID	PubChemID	PubChem ID		text	61		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	chemicalSubstanceIdentifier	substancebascatmetadata	http://voc4cat.org/PubChemID

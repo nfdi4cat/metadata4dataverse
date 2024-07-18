@@ -1,0 +1,34 @@
+#metadataBlock	name	dataverseAlias	displayName	blockURI												
+	measurementbascatmetadata		Catalysis Measurement Metadata													
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
+	measurementName	Name	Name of the Measurement		text	4		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/name
+	measurementMethod	Method	Name of the analytical method or reaction name as identified by the user		text	5		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/method
+	measurementDOE	DOE	Details of the experiment method used for the measurement		textbox	6		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/DOE
+	measurementStartTime	Start Time	Start Tiem of Measurement	YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS	text	7		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/startTime
+	measurementEndTime	End Time	End Time of Measurement	YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS	text	8		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/endTime
+	measurementLocalID	Local ID	Unique ID of the substance within the group		text	9		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/localID
+	measurementChemicalSubstance	Chemical Substance	Details on the chemical Substance		none	10		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/chemicalSubstance
+	measurementChemicalSubstanceName	Name	General Name of the substance as identified in the group (not necessarily the standard name)		text	11		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/name
+	measurementChemicalSubstanceType	Type	Physical state of the substance (solid, liquid, gas, mixture, solution, etc.)		text	12		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/type
+	measurementChemicalSubstanceLocalID	Local ID	Unique ID of the substance within the group		text	13		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/localID
+	measurementSynthesisMethod	Method	Identifier of the method of prepration of the substance if synthesized (precipitation, incipient wetness impregnation etc.)		text	15		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/method
+	measurementSynthesisTime	Time	Date of the synthesis of the material	YYYY-MM-DD or YYYY-MM-DDTHH:MM:SS	text	16		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/time
+	measurementSynthesizedBy	Synthesized By	Name of the person who synthesized the material		text	17		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/synthesizedBy
+	measurementSynthesisRecipe	Synthesis Recipe	Documentation (or link to respective file) of the applied synthesis procedure		textbox	18		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/recipe
+	measurementSynthesisPrecursor	Precursor	List of precursors (and/or materials and devices) that were used in the synthesis of the material		text	19		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/precursor
+	measurementPurchasedBy	Purchased By	Name of the person who purcahsed		text	21		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/purchasedBy
+	measurementPurchaseDate	Purchase Date	When was this substance purchased	YYYY-MM-DD	date	22		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/date
+	measurementBatchNumber	Batch Number	Batch or LOT number of the material		text	23		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/batchNumber	
+	measurementCASNumber	CAS Number	CAS Number	e.g. 7732-18-5	text	25		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/CASNumber
+	measurementPubChemID	PubChem ID	PubChem ID		text	26		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	measurementChemicalSubstance	measurementbascatmetadata	http://voc4cat.org/PubChemID
+	measurementSoftwareEnvironment	Software Environment	Details on the Software Environment		none	27		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/softwareEnvironment
+	measurementSoftwareName	Software Name	Software Name	e.g. Python	text	28		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	measurementSoftwareEnvironment	measurementbascatmetadata	http://voc4cat.org/softwareName
+	measurementSoftwareVersion	Software Version	Software Version	e.g. v3.0.1	text	29		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	measurementSoftwareEnvironment	measurementbascatmetadata	http://voc4cat.org/softwareVersion
+	device	Device	Details of the used Devices		none	30		TRUE	FALSE	TRUE	FALSE	TRUE	FALSE		measurementbascatmetadata	http://voc4cat.org/device
+	deviceName	Name	Name of the device as identified by the user		text	31		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/name
+	deviceType	Type	Type of the device used (fixed-bed reactor, TEM setup etc.)		text	32		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/type
+	deviceManufacturer	Manufacturer	Name of the company that manufactured the device		text	33		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/manufacturer
+	deviceSerialNumber	Serial Number	Issued serial number by the manufacturer		text	34		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/serialNumber
+	deviceDetectors	Detectors	Details for the detector(s) used in connection with operation of respective device		text	35		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/detectors
+	deviceDetectionUnit	Detection Unit	Detection Unit		text	36		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/detectionUnit
+	deviceLocalID	Local ID	Unique local ID of the device		text	37		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	device	measurementbascatmetadata	http://voc4cat.org/localID
