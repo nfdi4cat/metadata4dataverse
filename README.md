@@ -1,6 +1,6 @@
 # A metadata collection for catalysis-related sciences for integration into Dataverse
 
-> **The first collection of fields was simmarized in June 2024.**
+> **The first collection of fields was summarized in June 2024.**
 > **Our goal is to grow refine the collection to cover all subdisciplines of catalysis.**
 > **Please join if you like to help.**
 
