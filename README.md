@@ -15,7 +15,7 @@ the aim is to add semantic representation to the metadata so that the stored dat
 ### Disclaimer
 Since a large part of the defined metadata from the collection does not yet have a corresponding semantic representation, such a representation is not provided within the TSV file. This is part of the current development and we appreciate any support. Furthermore, the complex relations of the defined metadata collection (as seen in the picture) cannot be implemented by Dataverse, so that a partial decoupling of these fields into numerous metadata blocks was necessary.
 
-![Visual representation of metadat collection and its relation](./BasCat-Metadata_ext.drawio.png)
+![Visual representation of metadat collection and its relation](./Metadata-Relations.png)
 
 ## Basic project content
 * Overall collection of important metadata fields
