@@ -15,5 +15,5 @@
 	purchaseDate	Purchase Date	When was this substance purchased	YYYY-MM-DD	date	57		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE	purchaseDetails	substancebascatmetadata	http://voc4cat.org/date
 	batchNumber	Batch Number	Batch or LOT number of the material		text	58		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	purchaseDetails	substancebascatmetadata	http://voc4cat.org/batchNumber
 	chemicalSubstanceIdentifier	Identifier	Identifier of the Chemical Substance		none	59		TRUE	FALSE	FALSE	FALSE	TRUE	FALSE		substancebascatmetadata	http://voc4cat.org/chemicalSubstanceIdentifier
-	CASNumber CAS Number	CAS Number	CAS Number	e.g. 7732-18-5	text	60		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	chemicalSubstanceIdentifier	substancebascatmetadata	http://voc4cat.org/CASNumber
-	PubChemID PubChem ID	PubChemID	PubChem ID		text	61		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	chemicalSubstanceIdentifier	substancebascatmetadata	http://voc4cat.org/PubChemID
+	CASNumber	CAS Number	CAS Number	e.g. 7732-18-5	text	60		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	chemicalSubstanceIdentifier	substancebascatmetadata	http://voc4cat.org/CASNumber
+	PubChemID	PubChemID	PubChem ID		text	61		TRUE	FALSE	FALSE	TRUE	TRUE	FALSE	chemicalSubstanceIdentifier	substancebascatmetadata	http://voc4cat.org/PubChemID
